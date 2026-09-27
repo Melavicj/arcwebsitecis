@@ -1,7 +1,44 @@
 <!DOCTYPE html>
 
 <html>
+<style>
 
+  body
+  {
+    font-family: Arial;
+    font-size: 20px;
+  }
+  #menu-body img { transition: opacity 0.1s ease-in-out; }
+  #menu-body img:hover { opacity: .8; }
+  #tutorials-body { text-align: center; }
+  #tutorials-body li
+  {
+    list-style-type: none;
+    margin: 1rem;
+  }
+  a { text-decoration: none; }
+  a:hover { color: Navy; }
+  #tutorials-footer
+  {
+    list-style-type: none;
+    align: center;
+    background-color: #003647;
+    color: Seashell;
+    padding: 5rem;
+  }
+  #tutorials-footer a:visited { color: Seashell; }
+  #tutorials-footer a:hover
+  {
+    color: white;
+    text-decoration: underline;
+  }
+  #tutorials-footer li
+  {
+    display: inline-block;
+    margin: 1rem;
+    justify-content: center;
+  }
+</style>
 <head>
 
 <title>CISW 300 ARC Jake Melavic</title>
@@ -10,7 +47,7 @@
 
 <body style="background-color: SeaShell">
 
-
+<!--
 <h1 align="center">CISC 310 Introduction to Computer Science</h1>
 
 <h2>Jake Melavic</h2>
@@ -21,8 +58,46 @@
 
 <h3><a href="book/book.html">Tutorials</a></h3>
 
-<h3>Projects</h3>
+<h3>Projects</h3> -->
+
+<table width="100%" table align="center" id="menu-body">
+  <thead>
+    <tr>
+      <img src="banner_v2.jpg" alt="Banner for CISW 300" width="100%"/>
+    </tr>
+  </thead>
+  <tbody>
+    <tr width="90%">
+      <td rowspan="2" width="20%">
+        <aside id="tutorials-body">
+        <h1>Tutorials</h1>
+        <ul>
+          <li><a href="book/tutorial1/ct_start.html">Tutorial 1</a></li>
+          <li><a href="book/tutorial2/tss_home.html">Tutorial 2</a></li>
+          <li>Tutorial 3</li>
+          <li>Tutorial 4</li>
+          <li>Tutorial 5</li>
+        </ul>
+        </aside>
+      </td>
+      <td><a href="book/book.html"><img src="book_img.jpg" alt="book tutorials" width="100%"/></a></td>
+      <td><a href=""><img src="projects_img.jpg" alt="projects" width="100%"/></a></td>
+    </tr>
+    <tr width="90%">
+      <td><a href=""><img src="portfolio_img.jpg" alt="portfolio" width="100%"/></a></td>
+      <td><a href=""><img src="final_img.jpg" alt="final projects" width="100%"/></a></td>
+    </tr>
+  </tbody>
+</table>
 
 </body>
-
+<footer width="90%" align="Center">
+  <ul id="tutorials-footer">
+    <li><a href="book/tutorial1/ct_start.html">Tutorial 1</a></li>
+    <li><a href="book/tutorial2/tss_home.html ">Tutorial 2</a></li>
+    <li>Tutorial 3</li>
+    <li>Tutorial 4</li>
+    <li>Tutorial 5</li>
+  </ul>
+</footer>
 </html>
