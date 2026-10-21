@@ -48,7 +48,7 @@ section#left, section#right {
    perspective: 450px;
 }
 
-/*
+
 section#left aside {
    transform: rotateY(25deg);
 }
@@ -56,7 +56,7 @@ section#left aside {
 section#right aside {
    transform: rotateY(-25deg);
 }
-*/
+
 
 /* Cube Styles */
 
